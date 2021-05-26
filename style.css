@@ -1,0 +1,41 @@
+body,html{
+    background-color: #28282b;
+    color: white !important;
+    font-size: 18px;
+    font-family: "inconsolataregular" !important;
+}
+.container-fluid{
+    background-color: #28282b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    height: auto;
+    width: 50%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.textarea{
+    width: 80%;
+    background: #28282b;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 12px;
+    line-height: normal;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.btn{
+    background: #282828 !important;
+    color:#ffffff !important;
+    border-radius: 10px;
+    float: right;
+    margin-right: 125px;
+}
